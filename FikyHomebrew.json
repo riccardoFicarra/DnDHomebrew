@@ -1,0 +1,279 @@
+{
+  "_meta": {
+    "sources": [
+      {
+        "json": "PoisonHB",
+        "abbreviation": "PHBrew",
+        "full": "Homebrew Poison Rules",
+        "authors": [
+          "Fiky"
+        ],
+        "convertedBy": [
+          "ChatGPT"
+        ],
+        "version": "1.0"
+      }
+    ],
+    "dateAdded": 1792001781
+  },
+  "variantrule": [
+    {
+      "name": "Poisoned Condition (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "ruleType": "O",
+      "entries": [
+        "The poisoned condition does not impose disadvantage by default.",
+        "Instead, each poison has its own effect, which persists for as long as the creature remains poisoned by that poison. An effect ends when the creature is no longer poisoned by the relevant poison."
+      ]
+    },
+    {
+      "name": "Poison Resistance (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "ruleType": "O",
+      "entries": [
+        "There are three categories of poison resistance: physical, magical, and incorporeal.",
+        {
+          "type": "entries",
+          "name": "Physical",
+          "entries": [
+            "Applies to creatures whose physiology resists ordinary poisons, including dwarves and creatures without normal circulation, such as warforged and zombies."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Magical",
+          "entries": [
+            "Applies to poisons created by spells or potions."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Incorporeal",
+          "entries": [
+            "Applies to creatures with no organic matter for a poison to affect, such as ghosts. Cursed poison can affect such creatures."
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Poison Application and Duration (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "ruleType": "O",
+      "entries": [
+        "Unless a poison says otherwise, a poison lasts for 1 minute.",
+        "As a bonus action, a creature can apply poison to one weapon or to three pieces of ammunition.",
+        "A weapon can have at most one poison applied to it at a time.",
+        "Poison damage-over-time effects can stack. When a creature has multiple such effects from these poisons, it makes one saving throw to end all of those effects at once.",
+        "The Master Poisoner feat extends poison duration to 1 hour."
+      ]
+    },
+    {
+      "name": "Antidotes (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "ruleType": "O",
+      "entries": [
+        "An antidote can end a poison if the antidote's price is at least as high as the price of the poison it is intended to counter. See the Antidote items for the available price tiers."
+      ]
+    }
+  ],
+  "feat": [
+    {
+      "name": "Master Poisoner",
+      "source": "PoisonHB",
+      "page": 0,
+      "entries": [
+        "Prerequisite: Proficiency with a poisoner's kit.",
+        "You gain expertise with a poisoner's kit, and use Intelligence for checks made with the kit.",
+        "Poisons you apply last for 1 hour.",
+        "As a bonus action, you can apply poison to two weapons instead of one. This benefit does not change the normal limit of one poison per weapon.",
+        "When you score a critical hit with a poisoned weapon, the poison's damage is doubled, and the target has disadvantage on the saving throw against that poison.",
+        "Your poisons ignore physical poison resistance.",
+        "The saving throw DC of poisons you create or apply increases by your proficiency bonus."
+      ]
+    }
+  ],
+  "item": [
+    {
+      "name": "Basic Poison (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 1000,
+      "entries": [
+        "Physical poison.",
+        "When applied to a weapon or three pieces of ammunition, the poison deals an extra 1d4 poison damage on a hit.",
+        "This poison can be crafted from ordinary venomous animals and herbs."
+      ]
+    },
+    {
+      "name": "Deadly Poison (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "Physical poison.",
+        "The target takes 2d6 poison damage immediately when exposed to this poison. At the end of each of its turns, the target can make a DC 13 Constitution saving throw, ending this poison's damage-over-time effect on a success. On each subsequent turn before the effect ends, the target takes 1d6 poison damage."
+      ]
+    },
+    {
+      "name": "Numbing Poison (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "Physical poison. Saving throw DC 13.",
+        "The specific effect and saving-throw timing for this poison have not been defined in the supplied rules; the DM should specify them."
+      ]
+    },
+    {
+      "name": "Sleep Poison (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "Physical poison. Saving throw DC 13.",
+        "The specific effect and saving-throw timing for this poison have not been defined in the supplied rules; the DM should specify them."
+      ]
+    },
+    {
+      "name": "Drow Poison (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "Physical poison. This poison functions like Sleep Poison, but it also affects elves.",
+        "The specific effect and saving-throw timing are the same as those used for Sleep Poison."
+      ]
+    },
+    {
+      "name": "Paralysis Poison (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 20000,
+      "entries": [
+        "Physical poison. DC 13 Constitution saving throw.",
+        "On a failed save, the target is paralyzed for up to 1 minute. The supplied rules do not specify whether the target repeats the saving throw, so the DM should determine whether and when it can repeat the save."
+      ]
+    },
+    {
+      "name": "Necrotic Poison (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 25000,
+      "entries": [
+        "Physical poison.",
+        "The target takes 3d6 poison damage immediately. On each subsequent turn before the effect ends, it takes 1d6 poison damage. The target must succeed on a DC 14 Constitution saving throw to end the damage-over-time effect.",
+        "While the target is poisoned by this poison, it cannot regain hit points."
+      ]
+    },
+    {
+      "name": "Serpent Venom (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "Physical poison.",
+        "The target takes 4d6 poison damage, or half as much damage on a successful DC 14 Constitution saving throw."
+      ]
+    },
+    {
+      "name": "Wyvern Venom (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 30000,
+      "entries": [
+        "Physical poison.",
+        "The target takes 7d6 poison damage, or half as much damage on a successful DC 16 Constitution saving throw."
+      ]
+    },
+    {
+      "name": "Purple Worm Venom (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "P",
+      "rarity": "none",
+      "value": 100000,
+      "entries": [
+        "Physical poison.",
+        "The target takes 12d6 poison damage, or half as much damage on a successful DC 18 Constitution saving throw."
+      ]
+    },
+    {
+      "name": "Cursed Poison Surcharge (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "OTH",
+      "rarity": "none",
+      "value": 30000,
+      "entries": [
+        "This is an upgrade applied to another poison, not a standalone poison. Add 300 gp to the base poison's price to make it affect incorporeal creatures, such as ghosts.",
+        "The resulting cursed poison retains the base poison's other effects and saving throw DC."
+      ]
+    },
+    {
+      "name": "Antidote (50 gp) (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "OTH",
+      "rarity": "none",
+      "value": 5000,
+      "entries": [
+        "Ends one poison whose listed price is 50 gp or less."
+      ]
+    },
+    {
+      "name": "Antidote (100 gp) (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "OTH",
+      "rarity": "none",
+      "value": 10000,
+      "entries": [
+        "Ends one poison whose listed price is 100 gp or less."
+      ]
+    },
+    {
+      "name": "Antidote (200 gp) (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "OTH",
+      "rarity": "none",
+      "value": 20000,
+      "entries": [
+        "Ends one poison whose listed price is 200 gp or less."
+      ]
+    },
+    {
+      "name": "Antidote (300 gp) (Homebrew)",
+      "source": "PoisonHB",
+      "page": 0,
+      "type": "OTH",
+      "rarity": "none",
+      "value": 30000,
+      "entries": [
+        "Ends one poison whose listed price is 300 gp or less."
+      ]
+    }
+  ]
+}
