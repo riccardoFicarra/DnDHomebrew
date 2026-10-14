@@ -57,6 +57,84 @@
       "entries": [
         "You magically distract the triggering creature. It must reroll the d20 and use the lower roll."
       ]
+    },
+    {
+      "name": "Lightning Strike",
+      "source": "FikyHB",
+      "page": 292,
+      "level": 3,
+      "school": "T",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus",
+          "condition": "which you take immediately after hitting or missing a target with a weapon attack"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "As your attack hits or misses the target, the weapon or ammunition you're using transforms into a lightning bolt. Instead of taking any damage or other effects from the attack, the target takes 4d8 Lightning damage on a hit or half as much damage on a miss.",
+        {
+          "type": "entries",
+          "name": "Piercing",
+          "entries": [
+            "Each creature in a 5-foot-wide, 60-foot-long line originating from the target must make a Dexterity saving throw, taking 2d8 Lightning damage on a failed save or half as much damage on a successful one."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Slashing",
+          "entries": [
+            "Lightning bounces up to 2 times from the main target. Each jump spans at most 10 feet, on a creature of your choice.",
+            "Each creature affected must make a Dexterity saving throw, taking 2d8 Lightning damage on a failed save or half as much damage on a successful one."
+          ]
+        },
+        {
+          "type": "entries",
+          "name": "Bludgeoning",
+          "entries": [
+            "Each creature within 10 feet of the target, except you, must make a Dexterity saving throw, taking 2d8 Lightning damage on a failed save or half as much damage on a successful one."
+          ]
+        },
+        "The weapon or ammunition then returns to its normal form."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "The damage for both effects of the spell increases by 1d8 for each spell slot level above 3."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Ranger",
+            "source": "XPHB"
+          }
+        ]
+      },
+      "feats": [
+        {
+          "name": "Boon of Magic School Mastery",
+          "source": "AUA"
+        }
+      ]
     }
   ],
   "variantrule": [
