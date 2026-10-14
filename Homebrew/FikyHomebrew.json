@@ -59,6 +59,54 @@
       ]
     },
     {
+      "name": "Searing Weapon (Homebrew)",
+      "source": "FikyHB",
+      "page": 0,
+      "level": 1,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "action"
+        }
+      ],
+      "range": {
+        "type": "Touch"
+      },
+      "components": {
+        "v": true,
+        "s": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": 1,
+          "unit": "hour",
+          "concentration": true
+        }
+      ],
+      "entries": [
+        "You touch a quiver containing arrows or bolts, or a melee weapon. When a target is hit by that weapon attack or with a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell's magic ends on a piece of ammunition when it hits or misses."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+              "The damage for both effects of the spell increases to 1d8 at spell slot level 4, 1d10 at spell slot level 5"
+            ]
+          }
+        ],
+        "classes": {
+          "fromClassList": [
+            {
+              "name": "Ranger",
+              "source": "XPHB"
+            }
+          ]
+        }
+    },
+    {
       "name": "Lightning Strike",
       "source": "FikyHB",
       "page": 292,
