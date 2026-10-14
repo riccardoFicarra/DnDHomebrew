@@ -18,7 +18,7 @@
   },
   "variantrule": [
     {
-      "name": "Poisoned Condition (Homebrew)",
+      "name": "Condition: Poisoned (Homebrew)",
       "source": "PoisonHB",
       "page": 0,
       "ruleType": "O",
