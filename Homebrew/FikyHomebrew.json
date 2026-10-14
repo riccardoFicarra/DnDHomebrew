@@ -12,10 +12,53 @@
           "ChatGPT"
         ],
         "version": "1.2"
+      },
+      {
+        "json": "FikyHB",
+        "abbreviation": "FikyHB",
+        "full": "Fiky's Homebrew Spells",
+        "authors": [
+          "Fiky"
+        ],
+        "version": "1.0"
       }
     ],
     "dateAdded": 1792001781
   },
+  "spell": [
+    {
+      "name": "Silvery Barbs (Homebrew)",
+      "source": "FikyHB",
+      "page": 0,
+      "level": 1,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "reaction",
+          "condition": "which you take when a creature you can see within 60 feet of yourself succeeds on an attack roll, an ability check, or a saving throw"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "feet",
+          "amount": 60
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "instant"
+        }
+      ],
+      "entries": [
+        "You magically distract the triggering creature. It must reroll the d20 and use the lower roll."
+      ]
+    }
+  ],
   "variantrule": [
     {
       "name": "Condition: Poisoned (Homebrew)",
