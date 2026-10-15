@@ -59,6 +59,59 @@
       ]
     },
     {
+      "name": "Shining Smite (Homebrew)",
+      "source": "FikyHB",
+      "page": 0,
+      "level": 2,
+      "school": "E",
+      "time": [
+        {
+          "number": 1,
+          "unit": "bonus"
+        }
+      ],
+      "range": {
+        "type": "point",
+        "distance": {
+          "type": "self"
+        }
+      },
+      "components": {
+        "v": true
+      },
+      "duration": [
+        {
+          "type": "timed",
+          "duration": {
+            "type": "minute",
+            "amount": 1
+          }
+        }
+      ],
+      "entries": [
+        "The next time you hit a creature with a melee weapon attack or an Unarmed Strike before the spell ends, the attack deals an extra 2d6 Radiant damage to the target. The target emits Bright Light in a 5-foot radius and Dim Light for an additional 5 feet, and it can't benefit from the Invisible condition.",
+        "The next attack roll made against this target before the end of your next turn has advantage",
+        "At the end of each of its turns while it is affected by the bright light, the target makes a Wisdom saving throw against your spell save DC. On a success, the bright light ends and the target can benefit from the Invisible condition again. On a failure, these effects persist."
+      ],
+      "entriesHigherLevel": [
+        {
+          "type": "entries",
+          "name": "At Higher Levels",
+          "entries": [
+            "The extra damage increases by 1d6 for each spell slot level above 2."
+          ]
+        }
+      ],
+      "classes": {
+        "fromClassList": [
+          {
+            "name": "Paladin",
+            "source": "XPHB"
+          }
+        ]
+      }
+    },
+    {
       "name": "Searing Weapon (Homebrew)",
       "source": "FikyHB",
       "page": 0,
