@@ -62,8 +62,8 @@
       "name": "Searing Weapon (Homebrew)",
       "source": "FikyHB",
       "page": 0,
-      "level": 1,
-      "school": "E",
+      "level": 3,
+      "school": "T",
       "time": [
         {
           "number": 1,
@@ -71,7 +71,10 @@
         }
       ],
       "range": {
-        "type": "Touch"
+        "type": "point",
+        "distance": {
+          "type": "touch"
+        }
       },
       "components": {
         "v": true,
@@ -80,13 +83,15 @@
       "duration": [
         {
           "type": "timed",
-          "duration": 1,
-          "unit": "hour",
+          "duration": {
+            "type": "hour",
+            "amount": 1
+          },
           "concentration": true
         }
       ],
       "entries": [
-        "You touch a quiver containing arrows or bolts, or a melee weapon. When a target is hit by that weapon attack or with a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell's magic ends on a piece of ammunition when it hits or misses."
+        "You touch a quiver containing arrows or bolts, or a melee weapon. When a target is hit by that weapon attack or with a piece of ammunition drawn from the quiver, the target takes an extra 1d6 fire damage. The spell's magic ends on a piece of ammunition when it hits or misses, and if the weapon is dropped."
       ],
       "entriesHigherLevel": [
         {
